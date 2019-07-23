@@ -1,0 +1,26 @@
+{
+  "name": "sb-emotion-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jared Henderson <jared@netrivet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-emotion": "^10.0.14"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6016 --ci",
+    "build-storybook": "build-storybook"
+  }
+}
